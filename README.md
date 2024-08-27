@@ -1,22 +1,27 @@
 Welcome to my coding portfolio. This web application was built using Django-cotton, HTML, and CSS.
 
 
+____________________________
 
+**Table of Contents**
+- Introduction
+- Features
+- Tech Used
+- Project Structure
+- Contact
 
-Table of Contents
-Introduction
-Features
-Tech Used
-Project Structure
-Contact
-Introduction
+_____________________________
+**Introduction**
+
 My coding portfolio is designed to showcase my skills, projects, and expertise in software development. As I progress in my career, I plan to keep it updated with new skills, projects, and experiences.
+_______
+**Features**
 
-Features
-Dynamic Animations
-Responsive Design
+- Dynamic Animations
+- Responsive Design
+___________________
 
-Tech Used
+**Tech Used**
 Django-cotton: Enables me to efficiently create and reuse UI components. Embracing a modular design system simplifies workflows and enhances productivity.
 
 Tailwind CSS: Utility-first CSS framework that allows developers to build custom designs quickly by using predefined classes directly in their HTML.
