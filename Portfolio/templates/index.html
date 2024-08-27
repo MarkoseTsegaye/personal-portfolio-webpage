@@ -1,0 +1,44 @@
+{%extends "master.html"%}{%load static%} {%block content%}
+<div class="flex w-full bg-gray-800">
+  <div class="flex flex-col space-y-5 mr-auto ml-auto p-5% h-min w-[90%]">
+    <c-topbar
+      title="Portfolio"
+      url2="{% static 'icons8-linkedin.svg'%}"
+      url3="{% static 'icons8-github.svg'%}"
+    />
+    <div class="flex">
+    
+      <c-rotating-words pfp='{% static "laptop wave.png" %}' />
+    </div>
+    <c-aboutme
+      >Lorem Ipsum is simply dummy text of the printing and typesetting
+      industry. Lorem Ipsum has been the industry's standard dummy text ever
+      since the 1500s, when an unknown printer took a galley of type and
+      scrambled it to make a type specimen book. It has survived not only five
+      centuries, but also the leap into electronic typesetting, remaining
+      essentially unchanged. It was popularised in the 1960s with the release of
+      Letraset sheets containing Lorem Ipsum passages, and more recently with
+      desktop publishing software like Aldus PageMaker including versions of
+      Lorem Ipsum.</c-aboutme
+    >
+    <div class="flex ml-3">
+      <c-experience
+        name="Technologies"
+        url2="{% static 'django-icon-svgrepo-com.svg'%}"
+        url4="{% static 'icons8-postgres.svg'%}"
+        url6="{% static 'icons8-react-native.svg'%}"
+        url8="{% static 'icons8-flask.svg'%}"
+      />
+      <c-experience
+        name="Languages"
+        url2="{% static 'icons8-html.svg'%}"
+        url4="{% static 'icons8-css.svg'%}"
+        url6="{% static 'icons8-java.svg'%}"
+        url8="{% static 'icons8-python.svg'%}"
+        url5="{% static 'icons8-javascript.svg'%}"
+      />
+    </div>
+    <c-contactform></c-contactform>
+  </div>
+</div>
+{% endblock %}

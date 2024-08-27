@@ -1,0 +1,109 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.wrapper {
+
+    height: 80px;
+    margin-left: 0.5rem;
+    display: flex;
+    width:100%;
+
+
+}
+
+.words {
+    overflow: hidden;
+}
+
+span {
+    display: block;
+    height: max-content;
+    padding-left: 10px;
+    color: #9CDBA6;
+    background: linear-gradient(to right, #13ffb0,  #50B498);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: spin_words 9s infinite;
+    font-family: "Inika", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.4rem;
+    margin-bottom: 5%;
+
+
+}
+
+@keyframes spin_words {
+    10% {
+        transform: translateY(-130%);
+    }
+    25% {
+        transform: translateY(-128%);
+    }
+
+    35% {
+        transform: translateY(-280%);
+
+    }
+    50% {
+        transform: translateY(-278%);
+
+    }
+
+    60% {
+        transform: translateY(-400%);
+
+    }
+    75% {
+        transform: translateY(-398%);
+
+    }
+
+    85% {
+        transform: translateY(-530%);
+
+    }
+    100% {
+        transform: translateY(-528%);
+
+    }
+}
+
+.inika-regular {
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color:#D4D4D4;
+
+
+}
+
+.inika-bold {
+    font-family: "Inika", serif;
+    font-weight: 200;
+    font-style: normal;
+    color:#D4D4D4;
+    font-size: 1.5rem;
+
+}
+
+#font-small{
+    font-size: 0.8rem;
+}
+
+#font-med{  
+    font-size: 1.4rem;
+}
+
+#font-large{
+    font-size: 2rem;
+}
